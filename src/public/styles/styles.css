@@ -1,0 +1,52 @@
+
+.my-btn{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.my-btn-g{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.my-btn-logout{
+    position: absolute;
+    top: 10%;
+    left: 94%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.btn{
+    width: 300px;
+}
+
+.btn-logout{
+    width: 100px;
+}
+
+.btn-logout:hover{
+    cursor: pointer;
+}
+/* .card-title, .card-text, small{
+    
+    margin-left: 60px;
+} */
+
+.card-body, .card {
+    width: 900px;
+    margin-left: 20%;
+}
+ul{
+    margin-left: 20%;
+}
+
+.img-thumbnail{
+    margin-top: 80px;
+}

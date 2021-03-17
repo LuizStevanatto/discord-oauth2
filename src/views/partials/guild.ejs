@@ -1,0 +1,16 @@
+  <div class="card text-left">
+    <div class="card-body">
+        <img src="https://cdn.discordapp.com/icons/<%= guild.id %>/<%= guild.icon %>.png " alt="..." class="img-thumbnail float-left ">
+		
+        <h4 class="card-title mt-5 ">  <%= guild.name %>  </h4>
+
+        <ul>
+          <% guild.features.forEach(feature => { %>
+            <li> <%= feature %>  </li>
+            <% }) %> 
+        </ul>
+        
+    </div>
+  </div>
+
+  

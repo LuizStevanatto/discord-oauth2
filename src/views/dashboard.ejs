@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+
+
+<div>
+    <% guilds.forEach(guild => { %>
+        <%- include('partials/guild', { guild }) -%> 
+    <% }) %> 
+</div>
+
+ <div class="my-btn-logout">
+    <form action="/auth/logout">
+      <button type="submit" class="btn-logout btn-success">Logout</button>
+    </form> 
+  </div>
+
+<%- include('partials/footer') %> 
